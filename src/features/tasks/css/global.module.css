@@ -1,0 +1,26 @@
+.MyBadge {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 18px;
+    border-radius: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 14px;
+    line-height: 120%;
+    color: #402c1b;
+    margin: 0 6px 6px 0;
+}
+
+.PriorityHigh {
+    background: rgb(255, 226, 221) none repeat scroll 0 0;
+}
+
+.PriorityMedium {
+    background: rgb(253, 236, 200) none repeat scroll 0 0;
+}
+
+.PriorityLow {
+    background: rgb(219, 237, 219) none repeat scroll 0 0;
+}
