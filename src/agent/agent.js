@@ -1,11 +1,11 @@
 import axios from "axios";
 
-axios.defaults.baseURL = 'http://localhost:9001';
+axios.defaults.baseURL = 'https://todo-lists-dar-main.herokuapp.com/';
 
 const response = (response) => response;
 
 const headers = {
-    'Access-Control-Allow-Origin': 'http://locahost:3000', 'Access-Control-Allow-Headers': 'Origin'
+    'Access-Control-Allow-Origin': 'https://mtd-app.herokuapp.com/', 'Access-Control-Allow-Headers': 'Origin'
 };
 
 const tasksEndpoint = "/tasks";
